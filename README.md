@@ -1,18 +1,18 @@
-# GlossaContact Lab — Erasmus+ Internships
+# AthDGC Laboratory, Erasmus+ Internships
 
-Public site and application materials for **research internships at GlossaContact Lab**, hosted by the Faculty of English Language and Literature at the National and Kapodistrian University of Athens (NKUA, Erasmus code **G ATHINE01**), supervised by Prof. Nikolaos Lavidas.
+Public site and application materials for **research internships at the AthDGC Laboratory**, hosted by the Faculty of English Language and Literature at the National and Kapodistrian University of Athens (NKUA, Erasmus code **G ATHINE01**), supervised by Prof. Nikolaos Lavidas.
 
-Live site (after Pages is enabled): **https://athdgc.github.io/glossacontactlab-erasmus-internship/**
+Live site (after Pages is enabled): **https://athdgc.github.io/athdgclab-erasmus-internship/**
 
 ## What's in this repo
 
 | Path | What it is |
 |---|---|
 | [`index.html`](./index.html) | Single-page site: about the lab, internship overview, how to apply, embedded welcome video, downloads, contact |
-| [`documents/GlossaContact_Info_Brochure.pdf`](./documents/GlossaContact_Info_Brochure.pdf) | 2-page call for applications |
-| [`documents/GlossaContact_Application_Form.docx`](./documents/GlossaContact_Application_Form.docx) | Editable Word application form |
-| [`documents/GlossaContact_FAQ.pdf`](./documents/GlossaContact_FAQ.pdf) | Frequently Asked Questions |
-| [`documents/GlossaContact_Video_Script.pdf`](./documents/GlossaContact_Video_Script.pdf) | Welcome-video script & storyboard (production document) |
+| [`documents/AthDGC_Info_Brochure.pdf`](./documents/AthDGC_Info_Brochure.pdf) | 2-page call for applications |
+| [`documents/AthDGC_Application_Form.docx`](./documents/AthDGC_Application_Form.docx) | Editable Word application form |
+| [`documents/AthDGC_FAQ.pdf`](./documents/AthDGC_FAQ.pdf) | Frequently Asked Questions |
+| [`documents/AthDGC_Video_Script.pdf`](./documents/AthDGC_Video_Script.pdf) | Welcome-video script & storyboard (production document) |
 
 The welcome video is hosted externally and embedded via `<iframe>` in `index.html`.
 
@@ -20,7 +20,7 @@ The welcome video is hosted externally and embedded via `<iframe>` in `index.htm
 
 The site is fully static — `index.html` plus a `documents/` folder. To publish, drop the contents anywhere:
 
-- **GitHub Pages** — *Settings → Pages*, set Source to `main` / `/ (root)`, save. The site will be served at `https://athdgc.github.io/glossacontactlab-erasmus-internship/`.
+- **GitHub Pages** — *Settings → Pages*, set Source to `main` / `/ (root)`, save. The site will be served at `https://athdgc.github.io/athdgclab-erasmus-internship/`.
 - **University web space / Netlify / any static host** — upload the folder as-is.
 
 All document links in `index.html` are relative, so the structure must be preserved when uploading.
@@ -31,7 +31,7 @@ To swap in a different video (e.g. a YouTube or Vimeo embed, or a self-hosted `.
 
 ## How to apply
 
-See the [Information Brochure](./documents/GlossaContact_Info_Brochure.pdf) and the on-site "How to Apply" section. Applications are reviewed on a rolling basis; submit at least three months before your intended start date.
+See the [Information Brochure](./documents/AthDGC_Info_Brochure.pdf) and the on-site "How to Apply" section. Applications are reviewed on a rolling basis; submit at least three months before your intended start date.
 
 ## Contact
 
@@ -41,4 +41,4 @@ See the [Information Brochure](./documents/GlossaContact_Info_Brochure.pdf) and 
 
 ## License
 
-© GlossaContact Lab. Documents and copy may be adapted for academic use with attribution.
+© AthDGC Laboratory. Documents and copy may be adapted for academic use with attribution.
