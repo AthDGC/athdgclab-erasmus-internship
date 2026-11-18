@@ -12,6 +12,7 @@ Live site (after Pages is enabled): **https://athdgc.github.io/athdgclab-erasmus
 | [`documents/AthDGC_Info_Brochure.pdf`](./documents/AthDGC_Info_Brochure.pdf) | 2-page call for applications |
 | [`documents/AthDGC_FAQ.pdf`](./documents/AthDGC_FAQ.pdf) | Frequently Asked Questions |
 | [`documents/AthDGC_Welcome_Video_2027.mp4`](./documents/AthDGC_Welcome_Video_2027.mp4) | Welcome video, 86 seconds, played on the site |
+| [`documents/AthDGC_Welcome_Video_Poster.jpg`](./documents/AthDGC_Welcome_Video_Poster.jpg) | Still image shown before the video plays |
 
 The welcome video is a self-hosted `.mp4` played by a `<video>` element in `index.html`, with its narration as text below it.
 
