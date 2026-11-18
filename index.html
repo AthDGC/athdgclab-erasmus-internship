@@ -2,376 +2,430 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AthDGC Laboratory, Erasmus+ Internships</title><meta name="theme-color" content="#0F1D2E">
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Erasmus+ Traineeships 2027, AthDGC Laboratory</title>
+<meta name="description" content="Open call for Erasmus+ traineeships at the AthDGC Laboratory for Diachronic Linguistics and Language Change, Athens. Send one PDF by email, no deadline, reply within 20 days.">
+<meta name="theme-color" content="#ffffff">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Erasmus+ Traineeships 2027, AthDGC Laboratory">
+<meta property="og:description" content="The call is open now. Send one PDF by email to nlavidas@enl.uoa.gr. No deadline, reply within 20 days.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=GFS+Neohellenic:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <style>
 :root{
- --ink:#0f1d2e; --ink-soft:#2a3a52; --paper:#fbfaf6; --paper-card:#ffffff;
- --accent:#b8412c; --accent-soft:#e9a795; --teal:#2d6a6a; --teal-soft:#bcd9d3;
- --gold:#c69a3d; --rule:#e3dcc9; --shadow:0 10px 40px rgba(15,29,46,.08);
- --serif:'Cormorant Garamond','EB Garamond',Georgia,'Times New Roman',serif;
- --sans:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif;
+ --ink:#161616;
+ --soft:#454545;
+ --mute:#6b6b6b;
+ --rule:#d6d6d6;
+ --teal:#0E8388;
+ --paper:#ffffff;
+ --head:'GFS Didot','Didot','Bodoni 72',Georgia,'Times New Roman',serif;
+ --body:'GFS Neohellenic','Palatino Linotype',Palatino,Georgia,serif;
+ --wrap:1080px;
+ --measure:40rem;
 }
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
-*{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
-body{font-family:var(--sans);background:var(--paper);color:var(--ink);line-height:1.65;-webkit-font-smoothing:antialiased}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.7;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+h1,h2,h3,h4{font-family:var(--head);font-weight:400;margin:0;color:var(--ink)}
+p{margin:0 0 1em}
+a{color:var(--teal);text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{text-decoration-thickness:2px}
+a:focus-visible,summary:focus-visible{outline:2px solid var(--teal);outline-offset:3px}
+em{font-style:normal;color:var(--teal)}
+.skip{position:absolute;left:-999px;top:8px;background:var(--paper);color:var(--teal);padding:8px 12px;z-index:100}
+.skip:focus{left:8px}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 28px}
 
-.topbar{position:sticky;top:0;z-index:50;background:rgba(251,250,246,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--rule)}
-.topbar-inner{max-width:1200px;margin:0 auto;padding:14px 32px;display:flex;justify-content:space-between;align-items:center}
-.brand{display:flex;align-items:center;gap:14px;font-family:var(--serif);font-size:22px;font-weight:600;color:var(--ink);text-decoration:none;line-height:1}
+/* header */
+.topbar{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.96);backdrop-filter:saturate(1.4) blur(8px);border-bottom:1px solid var(--rule)}
+.topbar .wrap{display:flex;justify-content:space-between;align-items:baseline;gap:24px;padding-top:16px;padding-bottom:14px;flex-wrap:wrap}
+.brand{font-family:var(--head);font-size:21px;color:var(--ink);text-decoration:none;letter-spacing:.01em}
+.nav{display:flex;gap:26px;flex-wrap:wrap}
+.nav a{color:var(--soft);font-size:14px;text-decoration:none;padding:2px 0;border-bottom:1px solid transparent}
+.nav a:hover{color:var(--teal);border-bottom-color:var(--teal)}
 
-.brand-logo{height:44px;width:auto;max-width:160px;display:block;object-fit:contain;flex-shrink:0}
-.nav{display:flex;gap:28px}
-.nav a{color:var(--ink-soft);text-decoration:none;font-size:14px;font-weight:500;letter-spacing:.02em;transition:color .2s}
-.nav a:hover{color:var(--accent)}
+/* hero */
+.hero{padding:96px 0 72px}
+.eyebrow{font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--teal);margin-bottom:28px}
+.hero h1{font-size:clamp(40px,6.4vw,78px);line-height:1.06;letter-spacing:-.01em;max-width:15em;margin-bottom:28px}
+.hero .sub{font-size:19px;color:var(--soft);max-width:var(--measure);margin-bottom:44px}
+.facts{display:grid;grid-template-columns:repeat(4,1fr);gap:0 32px;margin:0 0 44px;padding:0;border-top:1px solid var(--ink)}
+.facts div{padding:18px 0 0}
+.facts dt{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--mute);margin-bottom:4px}
+.facts dd{margin:0;font-family:var(--head);font-size:21px;line-height:1.3;color:var(--ink)}
+.actions{display:flex;gap:36px;flex-wrap:wrap;align-items:baseline}
+.cta{font-family:var(--head);font-size:24px;color:var(--teal);text-decoration:none;border-bottom:2px solid var(--teal);padding-bottom:3px;transition:padding .2s}
+.cta:hover{padding-right:6px}
+.cta::after{content:' \2192'}
+.textlink{font-size:16px}
 
-.hero{position:relative;padding:90px 32px 110px;background:radial-gradient(ellipse at top right,rgba(45,106,106,.08),transparent 60%),radial-gradient(ellipse at bottom left,rgba(184,65,44,.06),transparent 55%),var(--paper);overflow:hidden}
-.hero::before{content:'γλώσσα · contact · γλώσσα · contact · γλώσσα · contact · γλώσσα · contact';position:absolute;top:50%;left:-10%;right:-10%;font-family:var(--serif);font-style:italic;font-size:140px;color:var(--ink);opacity:.025;white-space:nowrap;transform:translateY(-50%) rotate(-2deg);pointer-events:none;letter-spacing:.05em}
-.hero-inner{max-width:1200px;margin:0 auto;position:relative;z-index:1}
-.eyebrow{display:inline-block;font-size:12px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);padding:6px 14px;border:1px solid var(--accent);border-radius:999px;margin-bottom:24px}
-h1.hero-title{font-family:var(--serif);font-size:clamp(48px,7vw,86px);font-weight:500;line-height:1.05;letter-spacing:-.015em;color:var(--ink);max-width:900px;margin-bottom:24px}
-h1.hero-title em{font-style:italic;color:var(--accent)}
-.hero-sub{font-size:20px;color:var(--ink-soft);max-width:660px;margin-bottom:36px;font-weight:400}
-.hero-meta{display:flex;gap:32px;flex-wrap:wrap;margin-bottom:40px;padding-top:24px;border-top:1px solid var(--rule)}
-.hero-meta div{font-size:13px}
-.hero-meta strong{display:block;font-family:var(--serif);font-size:22px;font-weight:600;color:var(--ink);margin-bottom:4px}
-.hero-meta span{color:var(--ink-soft);text-transform:uppercase;letter-spacing:.1em;font-size:11px;font-weight:600}
-.cta-row{display:flex;gap:14px;flex-wrap:wrap}
-.btn{display:inline-block;padding:14px 28px;font-size:14px;font-weight:600;letter-spacing:.04em;text-decoration:none;border-radius:4px;transition:all .2s;cursor:pointer;border:none}
-.btn-primary{background:var(--ink);color:var(--paper)}
-.btn-primary:hover{background:var(--accent);transform:translateY(-1px)}
-.btn-secondary{background:transparent;color:var(--ink);border:1.5px solid var(--ink)}
-.btn-secondary:hover{background:var(--ink);color:var(--paper)}
-.btn-erasmus{background:var(--accent);color:var(--paper);font-weight:700}
-.btn-erasmus:hover{background:#8a3122;transform:translateY(-1px)}
-.btn-erasmus::after{content:' →';display:inline-block;transition:transform .2s}
-.btn-erasmus:hover::after{transform:translateX(4px)}
+/* sections */
+section{padding:84px 0;border-top:1px solid var(--rule)}
+.num{font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--teal);margin-bottom:14px}
+h2{font-size:clamp(32px,4.4vw,52px);line-height:1.1;margin-bottom:24px;max-width:15em}
+.lead{font-size:19px;color:var(--soft);max-width:var(--measure);margin-bottom:44px}
+[id]{scroll-margin-top:84px}
 
-section{padding:96px 32px;position:relative}
-section.alt{background:var(--paper-card)}
-.container{max-width:1100px;margin:0 auto}
-.section-num{font-family:var(--serif);font-style:italic;font-size:14px;color:var(--accent);letter-spacing:.15em;text-transform:uppercase;margin-bottom:16px;font-weight:500}
-h2.section-title{font-family:var(--serif);font-size:clamp(36px,5vw,56px);font-weight:500;line-height:1.1;margin-bottom:24px;color:var(--ink);max-width:720px}
-h2.section-title em{font-style:italic;color:var(--accent)}
-.section-lead{font-size:19px;color:var(--ink-soft);max-width:720px;margin-bottom:48px}
+.two{display:grid;grid-template-columns:1.15fr .85fr;gap:72px;align-items:start}
+.two p{color:var(--soft);max-width:var(--measure)}
+.rules{list-style:none;margin:0;padding:0;border-top:1px solid var(--ink)}
+.rules li{display:flex;gap:18px;padding:13px 0;border-bottom:1px solid var(--rule);color:var(--ink);font-size:16px;line-height:1.5}
+.rules li b{font-family:var(--head);font-weight:400;color:var(--teal);min-width:30px}
+.rules-title{font-family:var(--head);font-size:24px;margin-bottom:14px}
 
-.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start}
-.about-text p{margin-bottom:18px;color:var(--ink-soft);font-size:16.5px}
-.about-text p:first-child::first-letter{font-family:var(--serif);font-size:64px;line-height:.85;font-weight:600;float:left;margin:6px 10px 0 -2px;color:var(--accent)}
-.research-card{background:var(--ink);color:var(--paper);padding:40px 36px;border-radius:6px;position:relative;overflow:hidden}
-.research-card::before{content:'';position:absolute;top:-30px;right:-30px;width:160px;height:160px;background:var(--accent);opacity:.15;border-radius:50%}
-.research-card h3{font-family:var(--serif);font-size:24px;font-weight:600;margin-bottom:24px;position:relative}
-.research-list{list-style:none}
-.research-list li{padding:12px 0;border-top:1px solid rgba(255,255,255,.12);font-size:15px;display:flex;align-items:baseline;gap:14px}
-.research-list li:first-child{border-top:none;padding-top:0}
-.research-list li span{font-family:var(--serif);font-style:italic;color:var(--accent-soft);font-size:14px;min-width:32px}
+.three{display:grid;grid-template-columns:repeat(3,1fr);gap:0 40px;margin:0 0 56px}
+.three div{border-top:1px solid var(--ink);padding-top:18px}
+.three .n{font-family:var(--head);font-size:20px;color:var(--teal);margin-bottom:6px}
+.three h3{font-size:25px;line-height:1.2;margin-bottom:10px}
+.three p{font-size:16px;color:var(--soft);margin:0}
+.subh{font-size:27px;margin-bottom:12px}
+.who p{color:var(--soft);max-width:var(--measure)}
 
-.intern-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-bottom:60px}
-.intern-card{background:var(--paper);border:1px solid var(--rule);padding:32px 28px;border-radius:6px;position:relative;transition:all .25s}
-.intern-card:hover{transform:translateY(-4px);box-shadow:var(--shadow);border-color:var(--accent-soft)}
-.intern-icon{width:44px;height:44px;background:var(--teal-soft);color:var(--teal);border-radius:6px;display:grid;place-items:center;font-family:var(--serif);font-size:24px;font-weight:600;margin-bottom:18px}
-.intern-card h4{font-family:var(--serif);font-size:22px;font-weight:600;margin-bottom:10px;color:var(--ink)}
-.intern-card p{font-size:15px;color:var(--ink-soft);line-height:1.6}
+/* funding table */
+.terms{width:100%;border-collapse:collapse;margin:0 0 44px;font-size:16.5px}
+.terms th,.terms td{text-align:left;vertical-align:top;padding:18px 0;border-bottom:1px solid var(--rule)}
+.terms tr:first-child th,.terms tr:first-child td{border-top:1px solid var(--ink)}
+.terms th{font-family:var(--head);font-weight:400;font-size:21px;width:30%;padding-right:32px;color:var(--ink)}
+.terms td{color:var(--soft)}
+.terms td strong{color:var(--ink);font-weight:700}
+.sources h3{font-size:24px;margin-bottom:12px}
+.sources ul{list-style:none;margin:0;padding:0;border-top:1px solid var(--ink)}
+.sources li{padding:12px 0;border-bottom:1px solid var(--rule);display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;font-size:16px}
+.sources li span{color:var(--mute);font-size:14px}
 
+/* video */
+.video-wrap{max-width:960px}
+video{display:block;width:100%;height:auto;background:#fff}
+details{margin-top:18px;max-width:960px}
+summary{cursor:pointer;color:var(--teal);font-size:16px}
+details p{color:var(--soft);font-size:16px;margin-top:12px}
 
-.doc-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
-.doc-card{background:var(--paper);border:1px solid var(--rule);border-radius:6px;padding:28px;display:flex;gap:20px;align-items:start;text-decoration:none;color:inherit;transition:all .2s}
-.doc-card:hover{border-color:var(--accent);background:#fff;box-shadow:var(--shadow);transform:translateY(-2px)}
-.doc-icon{flex-shrink:0;width:52px;height:62px;background:var(--paper-card);border:1.5px solid var(--ink);border-radius:3px;position:relative;display:grid;place-items:center}
-.doc-icon::before{content:'';position:absolute;top:-1px;right:-1px;width:14px;height:14px;background:var(--paper);border-left:1.5px solid var(--ink);border-bottom:1.5px solid var(--ink)}
-.doc-icon span{font-family:var(--serif);font-size:11px;font-weight:700;letter-spacing:.05em;color:var(--ink)}
-.doc-icon.pdf{border-color:var(--accent)}
-.doc-icon.pdf::before{border-color:var(--accent)}
-.doc-icon.pdf span{color:var(--accent)}
-.doc-icon.docx{border-color:var(--teal)}
-.doc-icon.docx::before{border-color:var(--teal)}
-.doc-icon.docx span{color:var(--teal)}
-.doc-info h4{font-family:var(--serif);font-size:20px;font-weight:600;margin-bottom:6px;color:var(--ink)}
-.doc-info p{font-size:14.5px;color:var(--ink-soft);line-height:1.5;margin-bottom:8px}
-.doc-meta{font-size:11px;color:var(--ink-soft);letter-spacing:.1em;text-transform:uppercase;font-weight:600}
-.doc-meta span{color:var(--accent)}
+/* steps */
+.steps{list-style:none;margin:0 0 52px;padding:0;border-top:1px solid var(--ink);counter-reset:s}
+.steps li{display:grid;grid-template-columns:72px 1fr;gap:0 24px;padding:26px 0;border-bottom:1px solid var(--rule);counter-increment:s}
+.steps li::before{content:counter(s);font-family:var(--head);font-size:44px;line-height:1;color:var(--teal)}
+.steps h3{font-size:25px;margin-bottom:6px;line-height:1.2}
+.steps p{margin:0;color:var(--soft);font-size:16.5px;max-width:var(--measure)}
+.steps small{display:block;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--mute);margin-bottom:4px}
+.apply-line{display:flex;gap:28px;align-items:baseline;flex-wrap:wrap}
+.apply-line p{margin:0;color:var(--soft)}
 
-/* APPLY CTA BLOCK */
-.apply-cta{
- background:linear-gradient(135deg,var(--accent),#8a3122);color:var(--paper);
- padding:44px 40px;border-radius:8px;margin:48px 0 0;
- display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:24px;
-}
-.apply-cta-text h3{font-family:var(--serif);font-size:30px;font-weight:600;line-height:1.15;margin-bottom:6px}
-.apply-cta-text p{font-size:14.5px;opacity:.9;max-width:540px}
-.apply-cta .btn{background:var(--paper);color:var(--ink);font-weight:700;padding:16px 32px}
-.apply-cta .btn:hover{background:var(--ink);color:var(--paper);transform:translateY(-1px)}
+/* documents */
+.docs{list-style:none;margin:0;padding:0;border-top:1px solid var(--ink)}
+.docs li{display:grid;grid-template-columns:1fr auto;gap:8px 32px;padding:22px 0;border-bottom:1px solid var(--rule);align-items:baseline}
+.docs h3{font-size:24px;line-height:1.2;margin-bottom:4px}
+.docs p{margin:0;color:var(--soft);font-size:16px;max-width:var(--measure)}
+.docs a.dl{font-size:15px;white-space:nowrap}
 
-/* Steps timeline */
-.timeline{position:relative;padding-left:44px;margin:48px 0;counter-reset:step-counter}
-.timeline::before{content:'';position:absolute;left:13px;top:8px;bottom:8px;width:2px;background:var(--rule)}
-.step{position:relative;padding:0 0 36px 24px}
-.step:last-child{padding-bottom:0}
-.step::before{content:'';position:absolute;left:-37px;top:6px;width:28px;height:28px;background:var(--paper);border:2px solid var(--accent);border-radius:50%}
-.step::after{content:counter(step-counter);counter-increment:step-counter;position:absolute;left:-37px;top:6px;width:28px;height:28px;display:grid;place-items:center;font-family:var(--serif);font-weight:600;font-size:14px;color:var(--accent)}
-.step h4{font-family:var(--serif);font-size:22px;font-weight:600;margin-bottom:6px;color:var(--ink)}
-.step .when{font-size:13px;color:var(--accent);font-weight:600;letter-spacing:.05em;text-transform:uppercase;margin-bottom:8px}
-.step p{color:var(--ink-soft);font-size:15.5px}
+/* contact */
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:start}
+.contact-grid p{color:var(--soft);max-width:var(--measure)}
+.rows{margin:0;padding:0;border-top:1px solid var(--ink)}
+.rows div{display:grid;grid-template-columns:130px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid var(--rule);font-size:16px}
+.rows dt{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--mute);padding-top:3px}
+.rows dd{margin:0;color:var(--ink)}
 
-.contact-section{background:var(--ink);color:var(--paper);padding:80px 32px}
-.contact-inner{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
-.contact-section h2{font-family:var(--serif);font-size:48px;font-weight:500;line-height:1.1;margin-bottom:20px}
-.contact-section h2 em{font-style:italic;color:var(--accent-soft)}
-.contact-section p{color:rgba(255,255,255,.75);font-size:17px;margin-bottom:32px}
-.contact-card{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:6px;padding:36px;backdrop-filter:blur(10px)}
-.contact-row{display:flex;gap:14px;align-items:start;padding:16px 0;border-bottom:1px solid rgba(255,255,255,.08)}
-.contact-row:last-child{border-bottom:none}
-.contact-row .label{font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:var(--accent-soft);font-weight:600;min-width:90px}
-.contact-row .val{font-size:15px;color:var(--paper)}
-.contact-row .val a{color:var(--paper);text-decoration:underline;text-decoration-color:rgba(255,255,255,.3);text-underline-offset:3px}
-
-footer{padding:40px 32px;background:var(--paper);border-top:1px solid var(--rule);text-align:center}
-footer p{font-size:13px;color:var(--ink-soft);font-family:var(--serif);font-style:italic}
-footer p strong{font-family:var(--sans);font-style:normal;font-weight:600;color:var(--ink);letter-spacing:.05em}
+footer{border-top:1px solid var(--ink);padding:32px 0 48px}
+footer p{margin:0;color:var(--soft);font-size:14px;line-height:1.6;max-width:62rem}
 
 @media (max-width:900px){
- .nav{display:none}
- .about-grid,.contact-inner{grid-template-columns:1fr;gap:36px}
- .intern-grid{grid-template-columns:1fr}
- .doc-grid{grid-template-columns:1fr}
- section{padding:64px 24px}
- .hero{padding:60px 24px 80px}
- .hero-meta{gap:18px}
- .apply-cta{flex-direction:column;align-items:flex-start;text-align:left}
+ .wrap{padding:0 22px}
+ .hero{padding:56px 0 48px}
+ section{padding:56px 0}
+ .facts{grid-template-columns:1fr 1fr;gap:0 24px}
+ .two,.contact-grid{grid-template-columns:1fr;gap:40px}
+ .three{grid-template-columns:1fr;gap:28px}
+ .terms th{width:36%;padding-right:16px;font-size:19px}
+ .steps li{grid-template-columns:48px 1fr;gap:0 14px}
+ .steps li::before{font-size:34px}
+ .docs li{grid-template-columns:1fr}
+ .rows div{grid-template-columns:100px 1fr}
+ .nav{gap:16px}
+}
+@media (max-width:560px){
+ .topbar{position:static}
+ [id]{scroll-margin-top:16px}
+}
+@media (max-width:560px){
+ body{font-size:16.5px}
+ .facts{grid-template-columns:1fr}
+ .terms,.terms tbody,.terms tr,.terms th,.terms td{display:block;width:100%}
+ .terms th{padding:18px 0 4px;border-bottom:none}
+ .terms td{padding:0 0 18px}
+ .terms tr:first-child td{border-top:none}
+ .cta{font-size:21px}
+}
+@media (prefers-reduced-motion:reduce){
+ html{scroll-behavior:auto}
+ *{transition:none!important}
+}
+@media print{
+ .topbar,video,.skip{display:none}
+ section{padding:24px 0;break-inside:avoid}
 }
 </style>
 </head>
 <body>
+<a class="skip" href="#main">Skip to content</a>
 
 <header class="topbar">
- <div class="topbar-inner">
- <a href="#" class="brand">AthDGC Laboratory</a>
- <nav class="nav">
- <a href="#about">About</a>
- <a href="#internship">Internship</a>
- <a href="#apply">How to Apply</a>
- <a href="#documents">Documents</a>
- <a href="#contact">Contact</a>
- </nav>
+ <div class="wrap">
+  <a class="brand" href="#top">AthDGC Laboratory</a>
+  <nav class="nav" aria-label="Sections">
+   <a href="#about">About</a>
+   <a href="#traineeship">Traineeship</a>
+   <a href="#funding">Funding</a>
+   <a href="#apply">How to apply</a>
+   <a href="#documents">Documents</a>
+   <a href="#contact">Contact</a>
+  </nav>
  </div>
 </header>
 
-<section class="hero">
- <div class="hero-inner">
- <span class="eyebrow">Erasmus+ Internship Programme</span>
- <h1 class="hero-title">Study how languages <em>meet, change,</em> and shape one another.</h1>
- <p class="hero-sub">Join the AthDGC Laboratory at the National and Kapodistrian University of Athens for a research internship in language contact, diachronic linguistics, and corpus philology, through Erasmus+.</p>
+<main id="main">
 
- <div class="hero-meta">
- <div><strong>Athens, GR</strong><span>Location</span></div>
- <div><strong>NKUA</strong><span>Host</span></div>
- <div><strong>G ATHINE01</strong><span>Erasmus code</span></div>
- <div><strong>Erasmus+</strong><span>Funding</span></div>
- </div>
+<div class="hero" id="top">
+ <div class="wrap">
+  <div class="eyebrow">Erasmus+ traineeships 2027 &middot; The call is open now</div>
+  <h1>Study how languages <em>meet, change,</em> and shape one another.</h1>
+  <p class="sub">Join the AthDGC Laboratory for Diachronic Linguistics and Language Change in Athens for a research traineeship in language contact, diachronic linguistics and corpus philology.</p>
 
- <div class="cta-row">
- <a href="mailto:nlavidas@enl.uoa.gr" class="btn btn-erasmus">Apply by email</a>
- <a href="#documents" class="btn btn-secondary">Download documents</a>
+  <dl class="facts">
+   <div><dt>Where</dt><dd>Athens, Greece</dd></div>
+   <div><dt>When</dt><dd>March to September 2027, two to six months</dd></div>
+   <div><dt>How to apply</dt><dd>One PDF by email, no deadline</dd></div>
+   <div><dt>Our reply</dt><dd>Within 20 days</dd></div>
+  </dl>
+
+  <div class="actions">
+   <a class="cta" href="mailto:nlavidas@enl.uoa.gr">Apply by email</a>
+   <a class="textlink" href="#funding">Who pays the grant?</a>
+  </div>
  </div>
- </div>
-</section>
+</div>
 
 <!-- ABOUT -->
-<section id="about" class="alt">
- <div class="container">
- <div class="section-num">01 / About the Lab</div>
- <h2 class="section-title">A research home for <em>contact linguistics</em>.</h2>
- <p class="section-lead">The AthDGC Laboratory investigates how languages influence each other across time and space, combining historical philology, corpus methods, and formal syntax under one roof.</p>
-
- <div class="about-grid">
- <div class="about-text">
- <p>Hosted by the Faculty of English Language and Literature at the National and Kapodistrian University of Athens, the AthDGC Laboratory brings together linguists, philologists, and digital humanists working on Greek, English, and a wide range of historical and modern contact varieties.</p>
- <p>Our work spans several centuries and several traditions: from Byzantine and Early Modern Greek translations of biblical and classical texts, to syntactic change in the history of English, to bilingualism and language attrition in present-day communities.</p>
- <p>The Lab works closely with international partners and welcomes Erasmus+ research interns into a tight, supportive group with regular reading sessions and hands-on training in corpus annotation.</p>
- </div>
- <div class="research-card">
- <h3>Research Areas</h3>
- <ul class="research-list">
- <li><span>i.</span>Diachronic syntax of Indo-European</li>
- <li><span>ii.</span>Language contact &amp; translation philology</li>
- <li><span>iii.</span>Treebanking &amp; corpus annotation</li>
- <li><span>iv.</span>Bilingualism &amp; heritage languages</li>
- <li><span>v.</span>Computational philology &amp; digital humanities</li>
- <li><span>vi.</span>Voice, valency, and argument structure</li>
- </ul>
- </div>
- </div>
+<section id="about">
+ <div class="wrap">
+  <div class="num">01 &middot; The laboratory</div>
+  <h2>A research home for <em>language contact</em> and change.</h2>
+  <div class="two">
+   <div>
+    <p>The AthDGC Laboratory investigates how languages influence each other across time and space. It combines historical philology, corpus methods and formal syntax, and it is hosted by the Department of English Language and Literature, Faculty of Philosophy, at the National and Kapodistrian University of Athens.</p>
+    <p>Our work spans several centuries and several traditions: from Byzantine and Early Modern Greek translations of biblical and classical texts, to syntactic change in the history of English, to bilingualism and language attrition in present-day communities.</p>
+    <p>The Laboratory works with international partners and welcomes Erasmus+ trainees into a close, supportive group with regular reading sessions and hands-on training in corpus annotation.</p>
+   </div>
+   <div>
+    <h3 class="rules-title">Research areas</h3>
+    <ol class="rules" style="list-style:none">
+     <li><b>i.</b>Diachronic syntax of Indo-European</li>
+     <li><b>ii.</b>Language contact and translation philology</li>
+     <li><b>iii.</b>Treebanking and corpus annotation</li>
+     <li><b>iv.</b>Bilingualism and heritage languages</li>
+     <li><b>v.</b>Computational philology and digital humanities</li>
+     <li><b>vi.</b>Voice, valency and argument structure</li>
+    </ol>
+   </div>
+  </div>
  </div>
 </section>
 
-<!-- INTERNSHIP -->
-<section id="internship">
- <div class="container">
- <div class="section-num">02 / The Erasmus+ Internship</div>
- <h2 class="section-title">What you'll <em>actually do</em> here.</h2>
- <p class="section-lead">An internship at the AthDGC Laboratory is a real research apprenticeship. You will be assigned to an active project, receive structured training, and contribute work that ends up in the lab's outputs.</p>
+<!-- TRAINEESHIP -->
+<section id="traineeship">
+ <div class="wrap">
+  <div class="num">02 &middot; The traineeship</div>
+  <h2>What you'll <em>actually do</em> here.</h2>
+  <p class="lead">A traineeship at the Laboratory is a real research apprenticeship. You join an active project, receive structured training, and contribute work that ends up in the Laboratory's outputs.</p>
 
- <div class="intern-grid">
- <div class="intern-card">
- <div class="intern-icon">i</div>
- <h4>Corpus &amp; Treebank Work</h4>
- <p>Annotate historical Greek, Latin, or English texts; learn dependency annotation, part-of-speech tagging, and digital edition workflows alongside senior annotators.</p>
- </div>
- <div class="intern-card">
- <div class="intern-icon">ii</div>
- <h4>Research Project</h4>
- <p>Take on a focused mini-project, typically a case study in syntactic or lexical change, supervised by Prof. Lavidas. Work can develop into a thesis chapter or a co-authored paper.</p>
- </div>
- <div class="intern-card">
- <div class="intern-icon">iii</div>
- <h4>Lab Life &amp; Seminars</h4>
- <p>Attend the Lab Seminar, the History of Linguistics reading group, and visiting-speaker series. Present your own work in progress and receive structured peer feedback.</p>
- </div>
- </div>
+  <div class="three">
+   <div>
+    <div class="n">i.</div>
+    <h3>Corpus and treebank work</h3>
+    <p>Annotate historical Greek, Latin or English texts, and learn dependency annotation, part-of-speech tagging and digital edition workflows alongside experienced annotators.</p>
+   </div>
+   <div>
+    <div class="n">ii.</div>
+    <h3>A research project</h3>
+    <p>Take on a focused mini-project, typically a case study in syntactic or lexical change, supervised by Professor Lavidas. The work can grow into a thesis chapter or a co-authored paper.</p>
+   </div>
+   <div>
+    <div class="n">iii.</div>
+    <h3>Laboratory life</h3>
+    <p>Attend the Laboratory seminar, the History of Linguistics reading group and the visiting-speaker series. Present your work in progress and receive structured peer feedback.</p>
+   </div>
+  </div>
 
- <div style="margin-top:40px;display:grid;grid-template-columns:1fr 1fr;gap:48px">
- <div>
- <h3 style="font-family:var(--serif);font-size:26px;font-weight:600;margin-bottom:14px;color:var(--ink)">Who can apply</h3>
- <p style="color:var(--ink-soft);font-size:15.5px;line-height:1.65">Bachelor's (advanced years), Master's, and doctoral students enrolled at any Erasmus+ partner institution. Background in linguistics, philology, classics, English / Greek studies, computer science, or digital humanities is welcome. Recent graduates may apply for a traineeship within twelve months of graduation, in line with Erasmus+ rules.</p>
- </div>
- <div>
- <h3 style="font-family:var(--serif);font-size:26px;font-weight:600;margin-bottom:14px;color:var(--ink)">Funding &amp; logistics</h3>
- <p style="color:var(--ink-soft);font-size:15.5px;line-height:1.65">The Erasmus+ traineeship grant is paid by your <em>home</em> institution; consult your home Erasmus office for the current monthly amount and any supplements you qualify for. The Lab assists with documentation, accommodation referrals, and welcome support, but is not the funding body.</p>
- </div>
- </div>
+  <div class="who">
+   <h3 class="subh">Who can apply</h3>
+   <p>Bachelor's students (advanced years), Master's students and doctoral candidates enrolled at a higher education institution that holds an Erasmus Charter for Higher Education. Backgrounds in linguistics, philology, classics, English or Greek studies, computer science and digital humanities are welcome. Recent graduates may also apply for a traineeship within twelve months of graduation, in line with Erasmus+ rules; ask your home Erasmus office how this works at your university.</p>
+  </div>
  </div>
 </section>
 
-<!-- WELCOME VIDEO -->
+<!-- FUNDING -->
+<section id="funding">
+ <div class="wrap">
+  <div class="num">03 &middot; Funding</div>
+  <h2>Who pays? <em>Your home university.</em></h2>
+  <p class="lead">The Erasmus+ traineeship grant is paid by your home university, not by the AthDGC Laboratory. The Laboratory doesn't pay a salary or a stipend.</p>
+
+  <table class="terms">
+   <tr>
+    <th scope="row">Who pays the grant</th>
+    <td><strong>Your home university</strong>, from its own Erasmus+ funds. Your Erasmus office decides whether you are selected for a grant.</td>
+   </tr>
+   <tr>
+    <th scope="row">What the Laboratory provides</th>
+    <td>A place in a research group, supervision, training, and a signed Learning Agreement for Traineeships. We also help with documentation, accommodation suggestions and a welcome. <strong>No salary and no additional stipend.</strong></td>
+   </tr>
+   <tr>
+    <th scope="row">How much you receive</th>
+    <td>The monthly amount and any supplements depend on the Erasmus+ programme rules and on your home university. Ask your home Erasmus office for the figure that applies to your placement. The official grant levels are published in the Erasmus+ Programme Guide.</td>
+   </tr>
+   <tr>
+    <th scope="row">Before you write to us</th>
+    <td>Check with your home Erasmus office that you're eligible for a traineeship abroad and that it will fund your placement. Then send us your PDF.</td>
+   </tr>
+  </table>
+
+  <div class="sources">
+   <h3>Official information</h3>
+   <ul>
+    <li><a href="https://erasmus-plus.ec.europa.eu/opportunities/individuals/students/traineeships-abroad-for-students" target="_blank" rel="noopener">Erasmus+ traineeships abroad for students</a><span>European Commission</span></li>
+    <li><a href="https://erasmus-plus.ec.europa.eu/erasmus-programme-guide" target="_blank" rel="noopener">Erasmus+ Programme Guide, where the grant levels are published</a><span>European Commission</span></li>
+    <li><a href="https://en.interel.uoa.gr/erasmus" target="_blank" rel="noopener">Erasmus office of the University of Athens</a><span>Erasmus code G ATHINE01</span></li>
+    <li><a href="https://erasmuscareers.org/" target="_blank" rel="noopener">Erasmus Careers platform</a><span>Our offers will appear here after approval</span></li>
+   </ul>
+  </div>
+ </div>
+</section>
+
+<!-- VIDEO -->
 <section id="video">
- <div class="container">
- <div class="section-num">Welcome</div>
- <h2 class="section-title">The call, <em>in 86 seconds.</em></h2>
- <video controls preload="metadata" playsinline poster="documents/AthDGC_Welcome_Video_Poster.jpg" style="display:block;width:100%;max-width:960px;height:auto;background:#fff" aria-label="Welcome video of the AthDGC Laboratory for the Erasmus+ traineeships 2027">
- <source src="documents/AthDGC_Welcome_Video_2027.mp4" type="video/mp4">
- Your browser cannot play this video. You can download it from <a href="documents/AthDGC_Welcome_Video_2027.mp4">this link</a>.
- </video>
- <details style="margin-top:18px;max-width:960px">
- <summary style="cursor:pointer;color:var(--accent);font-weight:600">Read the narration</summary>
- <p style="color:var(--ink-soft);font-size:15.5px;line-height:1.65;margin-top:12px">The AthDGC Laboratory for Diachronic Linguistics and Language Change, at the National and Kapodistrian University of Athens, is opening its Erasmus+ traineeships for 2027. We study how languages change over time. Our team builds the AthDGC corpus of historical Greek and other languages, annotates texts in the PROIEL scheme, and checks the output of our annotation pipelines. As a trainee, you work with the team on real texts and real data. If you're interested in corpus linguistics, treebanking, computational philology, language contact or natural language processing, this is a place to learn by doing. Traineeships run between March and September 2027 and last from two to six months. Please check with your home university's Erasmus+ office that you can take part. Applying is simple. Write one PDF. Tell us about your studies and your background, your ideas, and what you'd like to do in the laboratory. Send it by email to nlavidas@enl.uoa.gr. That's all. The call is open now. We look forward to reading your PDF.</p>
- </details>
+ <div class="wrap">
+  <div class="num">04 &middot; Welcome</div>
+  <h2>The call, <em>in 86 seconds.</em></h2>
+  <div class="video-wrap">
+   <video controls preload="metadata" playsinline poster="documents/AthDGC_Welcome_Video_Poster.jpg" aria-label="Welcome video of the AthDGC Laboratory for the Erasmus+ traineeships 2027">
+    <source src="documents/AthDGC_Welcome_Video_2027.mp4" type="video/mp4">
+    Your browser cannot play this video. You can download it from <a href="documents/AthDGC_Welcome_Video_2027.mp4">this link</a>.
+   </video>
+   <details>
+    <summary>Read the narration</summary>
+    <p>The AthDGC Laboratory for Diachronic Linguistics and Language Change, at the National and Kapodistrian University of Athens, is opening its Erasmus+ traineeships for 2027. We study how languages change over time. Our team builds the AthDGC corpus of historical Greek and other languages, annotates texts in the PROIEL scheme, and checks the output of our annotation pipelines. As a trainee, you work with the team on real texts and real data. If you're interested in corpus linguistics, treebanking, computational philology, language contact or natural language processing, this is a place to learn by doing. Traineeships run between March and September 2027 and last from two to six months. Please check with your home university's Erasmus+ office that you can take part. Applying is simple. Write one PDF. Tell us about your studies and your background, your ideas, and what you'd like to do in the laboratory. Send it by email to nlavidas@enl.uoa.gr. That's all. The call is open now. We look forward to reading your PDF.</p>
+   </details>
+  </div>
  </div>
 </section>
 
 <!-- HOW TO APPLY -->
-<section id="apply" class="alt">
- <div class="container">
- <div class="section-num">03 / How to Apply</div>
- <h2 class="section-title">Apply <em>by email.</em></h2>
- <p class="section-lead">The laboratory hosts Erasmus+ trainees over several terms, and the call is open now, with no deadline. Applying is simple: send one PDF by email. Once the laboratory's profile on the Erasmus Careers platform has been approved, offers will be published there as well. The button below opens an email to the laboratory.</p>
+<section id="apply">
+ <div class="wrap">
+  <div class="num">05 &middot; How to apply</div>
+  <h2>Apply <em>by email.</em></h2>
+  <p class="lead">The call is open now, with no deadline, over several terms. Applying is simple: send one PDF by email. Once the Laboratory's profile on the Erasmus Careers platform has been approved, offers will be published there as well.</p>
 
- <div class="timeline">
- <div class="step">
- <div class="when">Step 1 · Before you apply</div>
- <h4>Talk to your home Erasmus+ office</h4>
- <p>Confirm that you are eligible for an Erasmus+ traineeship and that your institution supports the placement. Ask about start dates, durations, and the grant amount you would receive.</p>
- </div>
- <div class="step">
- <div class="when">Step 2 · Write one PDF</div>
- <h4>Tell us about yourself in one PDF</h4>
- <p>Write a single PDF with your studies and background, your ideas, and what you'd like to do in the laboratory, and say which period you'd prefer, for two to six months. No form and no separate documents are needed.</p>
- </div>
- <div class="step">
- <div class="when">Step 3 · Send your application</div>
- <h4>Apply by email</h4>
- <p>Send the PDF to nlavidas@enl.uoa.gr. The call is open now, with no deadline, for traineeships between March and September 2027 and for later terms.</p>
- </div>
- <div class="step">
- <div class="when">Step 4 · We respond</div>
- <h4>We reply by email</h4>
- <p>We reply by email and agree with you the practical timing of the placement, in line with your interests and the laboratory's projects.</p>
- </div>
- <div class="step">
- <div class="when">Step 5 · Paperwork &amp; arrival</div>
- <h4>Sign the Learning Agreement</h4>
- <p>Once accepted, we sign your Erasmus+ Learning Agreement for Traineeships and your home institution finalises the grant. We then coordinate arrival, induction, and your first project assignment.</p>
- </div>
- </div>
+  <ol class="steps">
+   <li>
+    <div>
+     <small>Before you apply</small>
+     <h3>Talk to your home Erasmus+ office</h3>
+     <p>Confirm that you're eligible for an Erasmus+ traineeship and that your university supports the placement. Ask about start dates, durations and the grant amount you would receive.</p>
+    </div>
+   </li>
+   <li>
+    <div>
+     <small>Write one PDF</small>
+     <h3>Tell us about yourself</h3>
+     <p>Write a single PDF with your studies and background, your ideas, and what you'd like to do in the Laboratory, and say which period you'd prefer, for two to six months. No form and no separate documents are needed.</p>
+    </div>
+   </li>
+   <li>
+    <div>
+     <small>Send it</small>
+     <h3>Email the PDF to nlavidas@enl.uoa.gr</h3>
+     <p>The call is open now, with no deadline, for traineeships between March and September 2027 and for later terms.</p>
+    </div>
+   </li>
+   <li>
+    <div>
+     <small>We reply</small>
+     <h3>Within 20 days, by email</h3>
+     <p>We reply by email within 20 days of receiving your PDF, and we agree with you the practical timing of the placement, in line with your interests and the Laboratory's projects.</p>
+    </div>
+   </li>
+   <li>
+    <div>
+     <small>Paperwork and arrival</small>
+     <h3>Sign the Learning Agreement</h3>
+     <p>Once you're accepted, we sign your Erasmus+ Learning Agreement for Traineeships and your home university finalises the grant. We then coordinate your arrival, induction and first project assignment.</p>
+    </div>
+   </li>
+  </ol>
 
- <div class="apply-cta">
- <div class="apply-cta-text">
- <h3>Apply now by email</h3>
- <p>The call is open now, with no deadline. Send one PDF with your studies and background, your ideas, and what you'd like to do.</p>
- </div>
- <a class="btn" href="mailto:nlavidas@enl.uoa.gr">Write to the laboratory →</a>
- </div>
+  <div class="apply-line">
+   <a class="cta" href="mailto:nlavidas@enl.uoa.gr">Write to the Laboratory</a>
+   <p>One PDF. No form. No deadline.</p>
+  </div>
  </div>
 </section>
 
 <!-- DOCUMENTS -->
 <section id="documents">
-  <div class="container">
-    <div class="section-num">04 / Documents</div>
-    <h2 class="section-title">Everything you need <em>in one place.</em></h2>
-    <p class="section-lead">Two documents with more detail. You don't need them to apply: one PDF is enough.</p>
+ <div class="wrap">
+  <div class="num">06 &middot; Documents</div>
+  <h2>More detail, <em>if you want it.</em></h2>
+  <p class="lead">You don't need either document to apply. One PDF is enough.</p>
 
-    <div class="doc-grid">
-      <a href="documents/AthDGC_Info_Brochure.pdf" class="doc-card" download>
-        <div class="doc-icon pdf"><span>PDF</span></div>
-        <div class="doc-info">
-          <h4>Information Brochure / Call</h4>
-          <p>Two-page overview of the Lab, the internship, who can apply, and the application process.</p>
-          <div class="doc-meta">PDF · <span>Read first</span></div>
-        </div>
-      </a>
-      <a href="documents/AthDGC_FAQ.pdf" class="doc-card" download>
-        <div class="doc-icon pdf"><span>PDF</span></div>
-        <div class="doc-info">
-          <h4>Frequently Asked Questions</h4>
-          <p>Eligibility, language of work, deliverables, certificates, and the practicalities of joining the Lab.</p>
-          <div class="doc-meta">PDF · <span>Quick read</span></div>
-        </div>
-      </a>
-      </div>
-  </div>
+  <ul class="docs">
+   <li>
+    <div>
+     <h3>Information brochure</h3>
+     <p>A two-page overview of the Laboratory, the traineeship, who can apply, the funding and the application process.</p>
+    </div>
+    <a class="dl" href="documents/AthDGC_Info_Brochure.pdf" download>Download PDF</a>
+   </li>
+   <li>
+    <div>
+     <h3>Frequently asked questions</h3>
+     <p>Eligibility, funding, language of work, deliverables, certificates and the practicalities of joining the Laboratory.</p>
+    </div>
+    <a class="dl" href="documents/AthDGC_FAQ.pdf" download>Download PDF</a>
+   </li>
+  </ul>
+ </div>
 </section>
 
 <!-- CONTACT -->
-<section id="contact" class="contact-section">
- <div class="contact-inner">
- <div>
- <h2>Apply <em>by email.</em></h2>
- <p>The AthDGC Laboratory hosts Erasmus+ trainees over several terms, and the call is open now, with no deadline. Send one PDF with your studies and background, your ideas, and what you'd like to do, by email to nlavidas@enl.uoa.gr. Once the laboratory's profile on the Erasmus Careers platform has been approved, offers will be published there as well.</p>
- <a href="mailto:nlavidas@enl.uoa.gr" class="btn btn-primary" style="background:var(--accent)">Apply by email</a>
- </div>
- <div class="contact-card">
- <div class="contact-row">
- <span class="label">Apply at</span>
- <span class="val"><a href="mailto:nlavidas@enl.uoa.gr">nlavidas@enl.uoa.gr</a></span>
- </div>
- <div class="contact-row">
- <span class="label">Supervisor</span>
- <span class="val"><a href="https://en.enl.uoa.gr/staff/tomeas_glossas_glossologias_eng/nikolaos_lavidas_eng/" target="_blank" rel="noopener">Prof. Nikolaos Lavidas</a></span>
- </div>
- <div class="contact-row">
- <span class="label">Faculty</span>
- <span class="val"><a href="https://en.enl.uoa.gr/" target="_blank" rel="noopener">Faculty of English Language &amp; Literature</a></span>
- </div>
- <div class="contact-row">
- <span class="label">Institution</span>
- <span class="val"><a href="https://en.uoa.gr/" target="_blank" rel="noopener">National &amp; Kapodistrian University of Athens</a></span>
- </div>
- <div class="contact-row">
- <span class="label">Erasmus office</span>
- <span class="val"><a href="https://en.interel.uoa.gr/erasmus" target="_blank" rel="noopener">en.interel.uoa.gr/erasmus</a></span>
- </div>
- <div class="contact-row">
- <span class="label">Erasmus code</span>
- <span class="val">G ATHINE01</span>
- </div>
- </div>
+<section id="contact">
+ <div class="wrap">
+  <div class="num">07 &middot; Contact</div>
+  <div class="contact-grid">
+   <div>
+    <h2>Send us <em>your PDF.</em></h2>
+    <p>The Laboratory hosts Erasmus+ trainees over several terms, and the call is open now, with no deadline. Send one PDF with your studies and background, your ideas, and what you'd like to do. We reply within 20 days.</p>
+    <p><a class="cta" href="mailto:nlavidas@enl.uoa.gr">Apply by email</a></p>
+   </div>
+   <dl class="rows">
+    <div><dt>Email</dt><dd><a href="mailto:nlavidas@enl.uoa.gr">nlavidas@enl.uoa.gr</a></dd></div>
+    <div><dt>Supervisor</dt><dd><a href="https://en.enl.uoa.gr/staff/tomeas_glossas_glossologias_eng/nikolaos_lavidas_eng/" target="_blank" rel="noopener">Nikolaos Lavidas</a>, Professor of Diachronic Linguistics</dd></div>
+    <div><dt>Department</dt><dd><a href="https://en.enl.uoa.gr/" target="_blank" rel="noopener">Department of English Language and Literature</a>, Faculty of Philosophy</dd></div>
+    <div><dt>University</dt><dd><a href="https://en.uoa.gr/" target="_blank" rel="noopener">National and Kapodistrian University of Athens</a></dd></div>
+    <div><dt>Erasmus office</dt><dd><a href="https://en.interel.uoa.gr/erasmus" target="_blank" rel="noopener">en.interel.uoa.gr/erasmus</a></dd></div>
+    <div><dt>Erasmus code</dt><dd>G ATHINE01</dd></div>
+   </dl>
+  </div>
  </div>
 </section>
 
+</main>
+
 <footer>
- <p>© 2026 <strong>AthDGC Laboratory</strong> · National and Kapodistrian University of Athens · Faculty of English Language &amp; Literature</p>
+ <div class="wrap">
+  <p>National and Kapodistrian University of Athens, Faculty of Philosophy, Department of English Language and Literature, Division of Language-Linguistics, AthDGC Laboratory for Diachronic Linguistics and Language Change</p>
+ </div>
 </footer>
 
 </body>
