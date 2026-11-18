@@ -8,11 +8,12 @@ Live site (after Pages is enabled): **https://athdgc.github.io/athdgclab-erasmus
 
 | Path | What it is |
 |---|---|
-| [`index.html`](./index.html) | Single-page site: about the lab, internship overview, how to apply, downloads, contact |
+| [`index.html`](./index.html) | Single-page site: about the lab, internship overview, how to apply, welcome video, downloads, contact |
 | [`documents/AthDGC_Info_Brochure.pdf`](./documents/AthDGC_Info_Brochure.pdf) | 2-page call for applications |
 | [`documents/AthDGC_FAQ.pdf`](./documents/AthDGC_FAQ.pdf) | Frequently Asked Questions |
+| [`documents/AthDGC_Welcome_Video_2027.mp4`](./documents/AthDGC_Welcome_Video_2027.mp4) | Welcome video, 86 seconds, played on the site |
 
-The welcome video is hosted externally and embedded via `<iframe>` in `index.html`.
+The welcome video is a self-hosted `.mp4` played by a `<video>` element in `index.html`, with its narration as text below it.
 
 ## Hosting
 
