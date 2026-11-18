@@ -27,12 +27,12 @@ All document links in `index.html` are relative, so the structure must be preser
 
 ## How to apply
 
-The call is open now, with no deadline. Send one PDF with your studies and background, your ideas, and what you'd like to do to nlavidas@enl.uoa.gr. We reply within 20 days. The Erasmus+ grant is paid by your home university; the laboratory pays no salary or stipend. See the [Information Brochure](./documents/AthDGC_Info_Brochure.pdf) and the on-site "How to apply" and "Funding" sections.
+The call is open now, with no deadline. Send one PDF with your studies and background, your ideas, and what you'd like to do to nlavidas@enl.uoa.gr. We reply within 20 days. The Erasmus+ grant is paid by your home university; the laboratory pays no salary or stipend. Once we accept you, the University of Athens runs its own online application (Learning Agreement signed by three parties, ID, health insurance, accident and civil-liability insurance) and confirms the placement with a Letter of Acceptance. See the [Information Brochure](./documents/AthDGC_Info_Brochure.pdf) and the on-site "How to apply" and "Funding" sections.
 
 ## Contact
 
 - **Supervisor:** [Nikolaos Lavidas](https://en.enl.uoa.gr/staff/tomeas_glossas_glossologias_eng/nikolaos_lavidas_eng/), Professor of Diachronic Linguistics, Department of English Language and Literature, Faculty of Philosophy
-- **Erasmus office of the University of Athens:** [en.interel.uoa.gr/erasmus](https://en.interel.uoa.gr/erasmus)
+- **Erasmus office of the University of Athens:** [Incoming traineeships at the University of Athens](https://en.interel.uoa.gr/erasmus_traineeship_mobility)
 - **Erasmus code:** G ATHINE01
 
 ## License
