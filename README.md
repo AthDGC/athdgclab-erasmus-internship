@@ -8,7 +8,7 @@ Live site (after Pages is enabled): **https://athdgc.github.io/athdgclab-erasmus
 
 | Path | What it is |
 |---|---|
-| [`index.html`](./index.html) | Single-page site: about the lab, traineeship overview, funding and official links, welcome video, how to apply, downloads, contact |
+| [`index.html`](./index.html) | Single-page site: about the lab, traineeship overview, the three review strands (technical, linguistic, philological), funding and official links, welcome video, how to apply, downloads, contact |
 | [`documents/AthDGC_Info_Brochure.pdf`](./documents/AthDGC_Info_Brochure.pdf) | 2-page call for applications |
 | [`documents/AthDGC_FAQ.pdf`](./documents/AthDGC_FAQ.pdf) | Frequently Asked Questions |
 | [`documents/AthDGC_Welcome_Video_2027.mp4`](./documents/AthDGC_Welcome_Video_2027.mp4) | Welcome video, 86 seconds, played on the site |
