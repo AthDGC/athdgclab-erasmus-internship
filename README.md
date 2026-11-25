@@ -27,7 +27,7 @@ All document links in `index.html` are relative, so the structure must be preser
 
 ## How to apply
 
-The call is open now, with no deadline. Send one PDF with your studies and background, your ideas, and what you'd like to do to nlavidas@enl.uoa.gr. We reply within 20 days. The Erasmus+ grant is paid by your home university; the laboratory pays no salary or stipend. Once we accept you, the University of Athens runs its own online application (Learning Agreement signed by three parties, ID, health insurance, accident and civil-liability insurance) and confirms the placement with a Letter of Acceptance. See the [Information Brochure](./documents/AthDGC_Info_Brochure.pdf) and the on-site "How to apply" and "Funding" sections.
+The call is open now. For traineeships starting from 7 January 2027, send one PDF by 15 December 2026; applications for later terms are read as they arrive. Send one PDF with your studies and background, your ideas, and what you'd like to do to nlavidas@enl.uoa.gr. We reply within 20 days. The Erasmus+ grant is paid by your home university; the laboratory pays no salary or stipend. Once we accept you, the University of Athens runs its own online application (Learning Agreement signed by three parties, ID, health insurance, accident and civil-liability insurance) and confirms the placement with a Letter of Acceptance. See the [Information Brochure](./documents/AthDGC_Info_Brochure.pdf) and the on-site "How to apply" and "Funding" sections.
 
 ## Contact
 
